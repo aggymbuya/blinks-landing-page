@@ -70,7 +70,7 @@ li {
 #contentlist {
     text-align: left;
     font-size: 20px;
-    color: hsl(196deg,100%,45%);
+    color: orange;
     display:list-item;
     border-right: 0px;
     font-type: monospace bold;
