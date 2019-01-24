@@ -1,2 +1,2 @@
-# blinks-landing-page
+# blinkslpage
 Blink Camera Landing Page
