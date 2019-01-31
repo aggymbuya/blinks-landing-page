@@ -2,7 +2,7 @@ body {
     color: #000000;
     font-size: 16px;
     line-height: 24px;
-    font-type: cooper;
+    font-family: cooper;
     position:relative;
     object-position: top;
     background-color: #ffffff;    
@@ -11,7 +11,11 @@ body {
 #header, #title {
     color: #ff7628;
     font-size: 36px;
-    font-type: monospace bold;
+    font-family: serif;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 .nav-link {
@@ -31,7 +35,7 @@ li {
     border-right: 1px solid orange;
 }
 
-#highlight {
+.highlight {
     margin-left: 5px;
     text-align: center;
     color: #ffffff;
@@ -70,15 +74,15 @@ li {
 #contentlist {
     text-align: left;
     font-size: 20px;
-    color: orange;
+    color: hsl(196deg,100%,45%);
     display:list-item;
     border-right: 0px;
-    font-type: monospace bold;
+    font-family: serif;
     font-style: italic;
     
 }
 
-#contentul {
+.contentul {
     list-style-type: square;
 }
 
@@ -100,6 +104,7 @@ margin-top: 80px;
     background-color: white;
     height: 200px;
     width: 410px;
+    border: 1px solid blue;
     border-radius: 2%;
 }
 .row2 {
